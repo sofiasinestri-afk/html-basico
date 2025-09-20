@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        th, th, td{
+            border: 1px solid;
+        }
+
+        tfoot {
+            background-color: grey;
+        }
+    </style>
+</head>
+<body>
+    <h2>Tabela</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Produduto</th>
+                <th>Quantidade</th>
+                <th>Preço</th>
+                <th>BlackFriday</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Produto 3</td>
+                <td>2</td>
+                <td>5$</td>
+                <td rowspan="2">Sim</td>
+            </tr>
+            <tr>
+                <td>Produto 2</td>
+                <td>5</td>
+                <td>10$</td>
+            </tr>
+            <tr>
+                <td>Produto 3</td>
+                <td>3</td>
+                <td>15</td>
+                <td>Não</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="3">total</td>
+                <td>3-</td>
+            </tr>
+        </tfoot>
+    </table>
+
+thead cabeçalho
+tr uma unica linha
+th os temas do cabeçalhos
+td dados da tabela
+rowspan ocupa linha
+colspan ocupa coluna
+tfoot é o rodapé
+</body>
+</html>
